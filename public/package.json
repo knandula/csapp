@@ -1,0 +1,8 @@
+{
+    "name": "engagepulse",
+    "version": "0.0.1",
+    "scripts": {
+        "preinstall": "npm i -g serve",
+        "start": "serve -s build"
+    }
+}

@@ -1,0 +1,47 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    &:focus {
+        outline: none;
+    }
+}
+body {
+  background-color: #fafaff;
+}
+*::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:#B3B7C2;
+  font-weight: 300;
+  font-family: 'Rubik';
+  }
+a {
+  cursor: pointer;
+}
+// ::-webkit-scrollbar {
+//     width: 0.5rem;
+//   }
+  
+//   /* Track */
+//   ::-webkit-scrollbar-track {
+//     background: #f1f1f1;
+//   }
+  
+//   /* Handle */
+//   ::-webkit-scrollbar-thumb {
+//     background: #C8C0FF;
+//     border-radius: 30px
+//   }
+  
+//   /* Handle on hover */
+//   ::-webkit-scrollbar-thumb:hover {
+//     background: #C8C0FF;
+//   }
+
+  .ql-container.ql-snow {
+      border: none;
+  }
+
+  .ql-toolbar.ql-snow {
+    border-top: 1px solid #787F92;
+    border-right: 0;
+    border-bottom: 1px solid #787F92;
+    border-left: 0;
+  }
